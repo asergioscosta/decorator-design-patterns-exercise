@@ -1,6 +1,6 @@
-package org.hamburgueria;
+package org.cafeteria;
 
-public interface Hamburguer {
+public interface Cafeteria {
 
     float getCusto();
 

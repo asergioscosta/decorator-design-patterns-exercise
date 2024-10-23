@@ -1,12 +1,13 @@
-package org.hamburgueria;
+package org.cafeteria;
 
-public class HamburguerPadrao implements Hamburguer{
+public class CafeteriaPadrao implements Cafeteria {
 
     public float custoAdicional;
 
-    public HamburguerPadrao(){}
+    public CafeteriaPadrao() {
+    }
 
-    public HamburguerPadrao(float custoAdicional){
+    public CafeteriaPadrao(float custoAdicional) {
         this.custoAdicional = custoAdicional;
     }
 
